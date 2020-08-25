@@ -16,13 +16,22 @@
 </head>
 
 <body>
-
+<!-- 모작페이지 알람 -->
+<div class="alerted active">
+  <div class="alert-box inline-block">이 페이지는 포트폴리오를 위한 페이지 입니다.
+    <div class="close-btn text-align-center">
+      <div class="close-text inline-block">확인</div>
+    </div>
+  </div>
+</div>
+<!-- 모작페이지 알람 끝 -->
   <!--
 //Slick 불러오기//
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 -->
+
 
   <!-- top-menu-bar HTML -->
   <div class="top-menu-bar con">
@@ -437,7 +446,7 @@
   <div class="con bottom-bar">
     <div class="con-3">
       <div class="adr-box row inline-block">
-        <div class="img-box cell inline-block"><img src="http://www.byncorp.com/byn_images/footer_logo.png" alt="">
+        <div class="img-box cell inline-block"><img src="https://kkt9102.github.io/img1/blog/article/portfolio/byn/footer_logo.png" alt=""><!-- http://www.byncorp.com/byn_images/footer_logo.png -->
         </div>
         <div class="adr-text font-size14 inline-block">
           <div>서울 특별시 서초구 바우뫼로 201 블랙야크 양재사옥(06745)</div>

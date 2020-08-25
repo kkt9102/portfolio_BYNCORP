@@ -5,6 +5,12 @@ setTimeout(function() {
   $(window).scrollTop(0);
 }, 500);
 */
+function alerted(){
+	$('.alerted > .alert-box > .close-btn > .close-text').click(function(){
+		$('.alerted').removeClass('active');
+	})
+}
+
 function slider() {
 	$('.slider').slick({
 		slide: 'div', //슬라이드 되어야 할 태그 ex) div, li 
@@ -65,6 +71,7 @@ function mobile(){
 
 
 $(function(){
+	alerted();
 	slider();
 	mobile();
 	main_scroll();
